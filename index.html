@@ -7,34 +7,35 @@
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>Tercel | Cloud Hosting For All</title>
-</head>
+    <title>Ibrahim | Front-end Developer</title>
+    <link rel="icon" href="images/favicon.png" type="image/gif">
+</head>    
 <body>
     <!--Navbar-->
     <div class="navbar">
         <div class="container flex">
-            <h1 class="logo">Tercel.</h1>
+            <h1 class="logo"><img src="./images/zuri.jpg" alt=""></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="docs.html">Docs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Portfolio</a></li>
                 </ul>
             </nav>
         </div>
     </div>
     
-    <!--Showcase-->
-    <section class="showcase">
+    <!--About me !-->
+    <section id="about" class="showcase">
         <div class="container grid">
             <div class="showcase-text">
-                <h1>Easier Deployment</h1>
-                <p>Deploy all kinds of web apps, from large scale dynamic APIs, to static websites for individuals. Fill the form to take a look at what we do!</p>
-                <a href="features.html" class="btn btn-outline">Read More</a>
+                <h1>Hello, I'm Olanrewaju Ibrahim.</h1>
+                <h3>A front-end web Developer</h3>
+                <a href="#about" class="btn btn-outline">About Me</a>
             </div>
 
-            <div class="showcase-form card">
-                <h2>Request a Demo</h2>
+            <div  class="showcase-form card">
+                <h2>Contact me</h2>
                 <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact">
                     <p class="hidden">
@@ -45,10 +46,10 @@
                         <input type="text" name="name" placeholder="Name" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" name="company" placeholder="Company Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-control">
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="message" placeholder="message" required>
                     </div>
                     <input type="submit" value="send" class="btn btn-primary">
                 </form>
@@ -56,106 +57,156 @@
         </div>
     </section>
 
-    <!--Stats-->
+    <!--About me ii-->
     <section class="stats">
         <div class="container">
-            <h3 class="stats-heading text-center my-1">Welcome to the best platform for building scalable applications of all types with modern architecture.</h3>
-
-            <div class="grid grid-3 text-center my-4">
-                <div>
-                    <i class="fas fa-server fa-3x"></i>
-                    <h3>24,363,729</h3>
-                    <p class="text-secondary">Deployments</p>
-                </div>
-                <div>
-                    <i class="fas fa-upload fa-3x"></i>
-                    <h3>899 TB</h3>
-                    <p class="text-secondary">Published</p>
-                </div>
-                <div>
-                    <i class="fas fa-project-diagram fa-3x"></i>
-                    <h3>1,963,729</h3>
-                    <p class="text-secondary">Projects</p>
-                </div>
-            </div>
+            <h3 class="stats-heading text-center my-1">ABOUT ME</h3>
+            <p>Results oriented front-end Developer dedicated to creating and optimizing interactive, user-friendly,
+                and feature-rich web applications. I am highly motivated and very creative by finding inspirations in 
+            everyday things, pushing my own boundaries and allowing myself to think outside of the box.</p>
         </div>
     </section>
 
-    <!--CLI-->
+    <!--Work experience and Education-->
     <section class="cli">
         <div class="container grid">
-            <img src="images/cli.png" alt="">
+            <div class="experience">
+                <h1>WORK EXPERIENCE</h1>
+                <ul>
+                    <li>
+                         <h3>KOCA DIGITAL ASSETS</h3>
+                         <h4>Web Developer Intern</h4>
+                         <p>I learnt how to create website layout by using standard HTML, CSS and Javascript practices and also migrating a multi-page user experience into a single page app which improved customer engagement. 
+                            I helped designed email marketing banners and integrating data from various back-end services and databases. It was a really fun experience that became a turning point in my career in web development.
+                         </p>
+                    </li> 
+                    <li>
+                         <h3>Fiverr | Upwork</h3>
+                         <h4>Freelance Front-end web Developer</h4>
+                    </li>
+                </ul>
+            </div> 
+            <div>
+                <h2>EDUCATION</h2>
+                <div class="card">
+                <h3>University of Lagos (2017-2021)</h3>
+                <h3>Akoka, Lagos.</h3> 
+                <h3>B.sc in Psychology.</h3>
+            </div> <br>
             <div class="card">
-                <h3>Easy to use, cross platform CLI</h3>
+                <h3>Zero to Mastery (2018-2019)</h3>
+                <h3>Virtual</h3>
+                <h3>Web Development.</h3>
             </div>
-            <div class="card">
-                <h3>Deploy in seconds</h3>
             </div>
         </div>
     </section>
 
-    <!--Cloud-->
+    <!--HNGI Internship-->
     <section class="cloud bg-primary my-2 py-2">
         <div class="container grid">
             <div class="text-center">
-                <h2 class="lg">Extreme Cloud Hosting</h2>
-                <p class="lead my-1">Cloud hosting like you've never seen. Fast, efficient and scalable.</p>
-                <a href="features.html" class="btn btn-dark">Read More</a>
+                <h2 class="lg">HNGI Internship</h2>
+                <p class="lead my-1">The HNGi internship provides me the perfect opportunity to become a better front end developer. I will be learning all the in demand technologies of front end development as well as being able to solve real life problems using logic and code. I will be an active member of the incredible tech community while building impactful relationships.</p>
+                <a href="index.html" class="btn btn-dark">My resume</a>
             </div>
 
-            <img src="images/cloud.png" alt="">
+            <img src="images/hngi.png" alt="">
         </div>
     </section>
 
-    <!-- Languages -->
+    <!-- Skills -->
     <section class="languages">
-        <h2 class="md text-center my-2">Supported Languages</h2>
+        <h2 class="md text-center ">Skills</h2>
         <div class="container flex">
             <div class="card">
-                <h4>Node.js</h4>
+                <h4>HTML</h4>
+                <img src="images/logos/html.png" alt="">
+            </div>
+            <div class="card">
+                <h4>CSS</h4>
+                <img src="images/logos/css.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>React</h4>
+                <img src="images/logos/react.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Sass</h4>
+                <img src="images/logos/sass.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Git</h4>
+                <img src="images/logos/git.png" alt="">
+            </div>
+            <div class="card">
+                <h4>NODEJS</h4>
                 <img src="images/logos/node.png" alt="">
-            </div>
-            <div class="card">
-                <h4>C#</h4>
-                <img src="images/logos/csharp.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Go</h4>
-                <img src="images/logos/go.png" alt="">
-            </div>
-            <div class="card">
-                <h4>PHP</h4>
-                <img src="images/logos/php.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Python</h4>
-                <img src="images/logos/python.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Ruby</h4>
-                <img src="images/logos/ruby.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Scala</h4>
-                <img src="images/logos/scala.png" alt="">
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer bg-dark py-5">
-        <div class="container grid grid-3">
-            <div>
-                <h1>Tercel</h1>
-                <p>Trademark &trade; 2020</p>
+    <!-- Portfolio -->
+     <main  id="work">
+        <h1 class="lg-heading"> My <span class="text-secondary">Portfolio</span>.</h1>
+        <h2 class="sm-heading">Take a look at some of my best projects...</h2>
+
+        <div class="main-work">
+            <div class="item">
+                <a href="#">
+                    <img src="./images/logo1.png" alt="project">
+                </a>
+                <a href="https://9jadeveloper.github.io/COVID-19-TRACKER-APP/" class="btn-portfolio">
+                    <i class="fas fa-eye"></i> See live
+                </a>
+                <a href="https://github.com/9jadeveloper/COVID-19-TRACKER-APP" class="btn-portfolio">
+                    <i class="fab fa-github"></i> Source code
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="docs.html">Documentation</a></li>
-                </ul>
-            </nav>
+             <div class="item">
+                <a href="#">
+                    <img src="./images/logo.png" alt="project">
+                </a>
+                <a href="https://wale-yelpcamp--app.herokuapp.com" class="btn-portfolio">
+                    <i class="fas fa-eye"></i> See live
+                </a>
+                <a href="https://github.com/9jadeveloper/YELPCAMP" class="btn-portfolio">
+                    <i class="fab fa-github"></i> Source code
+                </a>
+            </div>
+             <div class="item">
+                <a href="#">
+                    <img src="./images/logo3.png" alt="project">
+                </a>
+                <a href="https://tercel.netlify.app/" class="btn-portfolio">
+                    <i class="fas fa-eye"></i> See live
+                </a>
+                <a href="https://github.com/9jadeveloper/tercel-website" class="btn-portfolio">
+                    <i class="fab fa-github"></i> Source code
+                </a>
+            </div>
+             <div class="item">
+                <a href="#">
+                    <img src="./images/logo4.png" alt="project">
+                </a>
+                <a href="#" class="btn-portfolio">
+                    <i class="fas fa-eye"></i> See live
+                </a>
+                <a href="https://github.com/9jadeveloper/travelville" class="btn-portfolio">
+                    <i class="fab fa-github"></i> Source code
+                </a>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer" class="footer">
+        <div class="container grid">
+            <div>
+        <p> &copy; 2021 - <a class="name" href="https://github.com/9jadeveloper" target="_blank"
+            >OLANREWAJU IBRAHIM</a
+          > </p>
+            </div>
+            
             <div class="social">
                 <a href="https://github.com/9jadeveloper"><i class="fab fa-git fa-2x"></i></a>
                 <a href="https://twitter.com/_olanrewaju10"><i class="fab fa-twitter fa-2x"></i></a>

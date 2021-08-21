@@ -31,6 +31,13 @@
     border: 1px #fff solid;
 }
 
+.btn-portfolio {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+}
+
 .btn:hover {
     transform: scale(.98);
 }
@@ -117,27 +124,6 @@ color: var(--light-color);
     text-align: center;
 }
 
-/* Alert */
-.alert {
-    background-color: var(--light-color);
-    padding: 10px 20px;
-    font-weight: bold;
-    margin: 15px 0;
-}
-
-.alert i {
-    margin-right: 10px;
-}
-
-.alert-success {
-    background-color: var(--success-color);
-    color: #fff;
-}
-
-.alert-error {
-    background-color: var(--error-color);
-    color: #fff;
-}
 
 /* Flex and grid */
 .flex {
@@ -156,9 +142,6 @@ color: var(--light-color);
     height: 100%;
 }
 
-.grid-3 {
-    grid-template-columns: repeat(3, 1fr);
-}
 
 /* margins*/
 
